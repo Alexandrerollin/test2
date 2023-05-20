@@ -15,5 +15,62 @@
         unde sit porro itaque, hic quae. lorem Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere provident laboriosam 
         quae ex nobis vel ut molestias eveniet, nihil commodi reprehenderit debitis temporibus cupiditate,
         neque tempore, illum repudiandae. Eum, sunt.</p>
+        <form action="/signup" method="post">
+            <p class="form">
+              <label>Test 1</label><br>
+              <label>
+                <input type="radio" name="title" value="mr">
+                Mr
+              </label>
+              <label>
+                <input type="radio" name="title" value="mrs">
+                Mrs
+              </label>
+              <label>
+                <input type="radio" name="title" value="miss">
+                Miss
+              </label>
+            </p>
+            <p class="form">
+              <label>First name</label><br>
+              <input type="text" name="first_name">
+            </p>
+            <p class="form">
+              <label>Last name</label><br>
+              <input type="text" name="last_name">
+            </p>
+            <p class="form">
+              <label>Email</label><br>
+              <input type="email" name="email" required>
+            </p>
+            <p class="form">
+              <label>Phone number</label><br>
+              <input type="tel" name="phone">
+            </p>
+            <p class="form">
+              <label>Password</label><br>
+              <input type="password" name="password">
+            </p>
+            <p class="form">
+              <label>Country</label><br>
+              <select>
+                <option>China</option>
+                <option>India</option>
+                <option>United States</option>
+                <option>Indonesia</option>
+                <option>Brazil</option>
+              </select>
+            </p>
+            <p class="form">
+              <label>
+                <input type="checkbox" value="terms">
+                I agree to the <a href="/terms">terms and conditions</a>
+              </label>
+            </p>
+            <p class="form">
+              <button>Sign up</button>
+              <button type="reset">Reset form</button>
+            </p>
+          </form>
 </body>
 </html>
